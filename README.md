@@ -1,0 +1,2 @@
+# DesignPatternSamples
+Design pattern samples.
