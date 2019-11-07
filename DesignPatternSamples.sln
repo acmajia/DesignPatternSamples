@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPatternTest", "..\src\CommandPatternTest\CommandPatternTest.csproj", "{A8E52FD1-9E28-4410-84E2-35146320556E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPatternTest", "src\CommandPatternTest\CommandPatternTest.csproj", "{A8E52FD1-9E28-4410-84E2-35146320556E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternTest", "..\src\FactoryPatternTest\FactoryPatternTest.csproj", "{B7819225-6E6C-4D09-BEA8-0ADB1EC6C06A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPatternTest", "src\FactoryPatternTest\FactoryPatternTest.csproj", "{B7819225-6E6C-4D09-BEA8-0ADB1EC6C06A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatternTest", "src\StrategyPatternTest\StrategyPatternTest.csproj", "{FEB356EC-FDE6-4390-BA2D-BC0E2E51A076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B7819225-6E6C-4D09-BEA8-0ADB1EC6C06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7819225-6E6C-4D09-BEA8-0ADB1EC6C06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7819225-6E6C-4D09-BEA8-0ADB1EC6C06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB356EC-FDE6-4390-BA2D-BC0E2E51A076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB356EC-FDE6-4390-BA2D-BC0E2E51A076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB356EC-FDE6-4390-BA2D-BC0E2E51A076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB356EC-FDE6-4390-BA2D-BC0E2E51A076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
